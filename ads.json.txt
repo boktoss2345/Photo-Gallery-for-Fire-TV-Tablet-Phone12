@@ -35,7 +35,7 @@
         {
           "type": "video",
           "enabled": true,
-          "src": "https://boktoss2345.github.io/Block-Video-Studio-Editor/assets/videos12456.mp4",
+          "src": "https://raw.githubusercontent.com/boktoss2345/Photo-Gallery-for-Fire-TV-Tablet-Phone12/main/assets/videos12456.mp4",
           "autoplay": true,
           "loop": true,
           "muted": true,
