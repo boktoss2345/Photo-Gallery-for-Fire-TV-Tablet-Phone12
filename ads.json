@@ -2,21 +2,13 @@
   "schemaVersion": 1,
   "enabled": true,
   "initialDelaySeconds": 5,
-  "showDurationSeconds": 10,
+  "showDurationSeconds": 25,
   "repeatEverySeconds": 20,
-
-  "countdown": {
-    "enabled": true,
-    "seconds": 10,
-    "style": "circle",
-    "position": "topRight",
-    "autoCloseAtZero": true
-  },
 
   "behavior": {
     "selectionMode": "random",
     "refreshConfigBeforeShow": true,
-    "pauseWhileAppInBackground": true,
+    "pauseWhenBackground": true,
     "avoidImmediateRepeat": true
   },
 
@@ -26,6 +18,14 @@
     "dismissOnOutsideTap": false,
     "dismissOnBackPress": false
   },
+
+  "showCloseButton": true,
+  "closeText": "×",
+  "closeTextSize": 24,
+  "closeTextColor": "#FFFFFF",
+  "closeWidth": 48,
+  "closeHeight": 48,
+  "closePosition": "top_end",
 
   "ads": [
     {
@@ -40,10 +40,10 @@
           "loop": true,
           "muted": true,
           "controls": false,
-          "widthPercent": 82,
-          "maxWidthDp": 420,
-          "contentScale": "fit",
-          "cornerRadiusDp": 24,
+          "width": 420,
+          "height": 236,
+          "position": "center",
+          "cornerRadius": 24,
           "clickable": true,
           "url": "amzn://apps/android?initiatePurchaseFlow=true&asin=B0H7SBR4MW"
         },
@@ -51,8 +51,7 @@
           "type": "countdown",
           "enabled": true,
           "seconds": 25,
-          "style": "circle",
-          "position": "topRight",
+          "position": "top_end",
           "autoCloseAtZero": true
         }
       ]
