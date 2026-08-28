@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "initialDelaySeconds": 5000,
+  "initialDelaySeconds": 5,
   "showDurationSeconds": 10,
   "repeatEverySeconds": 20,
 
@@ -35,7 +35,7 @@
         {
           "type": "video",
           "enabled": true,
-          "src": "https://raw.githubusercontent.com/boktoss2345/Photo-Gallery-for-Fire-TV-Tablet-Phone12/main/assets/videos12456.mp4",
+          "src": "https://raw.githubusercontent.com/boktoss2345/Photo-Gallery-for-Fire-TV-Tablet-Phone12/main/assets/0828.mp4",
           "autoplay": true,
           "loop": true,
           "muted": true,
